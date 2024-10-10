@@ -1,5 +1,5 @@
 -- Criando tabela "estados"
-create table estados (
+create table if not exists estados (
     id int unsigned not null auto_increment,
     nome varchar(50) not null,
     sigla varchar(2) not null,
